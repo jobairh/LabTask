@@ -41,5 +41,13 @@ namespace Lab3
             this.department = department;
             this.cgpa = cgpa;
         }
+        public void showInfo()
+        {
+            Id = "17-34940-2";
+            Name = "Jobair hossain";
+            Department = "Cse";
+            Cgpa = 4;
+
+        }
     }
 }
