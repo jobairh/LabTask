@@ -1,0 +1,7 @@
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\obj\Debug\Triangle.csprojAssemblyReference.cache
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\obj\Debug\Triangle.csproj.CoreCompileInputs.cache
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\bin\Debug\Triangle.exe.config
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\bin\Debug\Triangle.exe
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\bin\Debug\Triangle.pdb
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\obj\Debug\Triangle.exe
+H:\OOP2 Fall 20-21\Lab-task\L3\Triangle\Triangle\Triangle\obj\Debug\Triangle.pdb
