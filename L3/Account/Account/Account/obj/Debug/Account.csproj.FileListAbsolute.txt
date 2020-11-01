@@ -1,0 +1,7 @@
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\bin\Debug\Account.exe.config
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\bin\Debug\Account.exe
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\bin\Debug\Account.pdb
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\obj\Debug\Account.csprojAssemblyReference.cache
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\obj\Debug\Account.csproj.CoreCompileInputs.cache
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\obj\Debug\Account.exe
+H:\OOP2 Fall 20-21\Lab-task\L3\Account\Account\Account\obj\Debug\Account.pdb
