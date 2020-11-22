@@ -1,0 +1,7 @@
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\bin\Debug\Student_library.exe.config
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\bin\Debug\Student_library.exe
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\bin\Debug\Student_library.pdb
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\obj\Debug\Student_library.csprojAssemblyReference.cache
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\obj\Debug\Student_library.csproj.CoreCompileInputs.cache
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\obj\Debug\Student_library.exe
+H:\OOP2 Fall 20-21\Lab-task\Lab-task-6\Student_library\Student_library\obj\Debug\Student_library.pdb
