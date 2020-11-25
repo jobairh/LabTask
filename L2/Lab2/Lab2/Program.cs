@@ -140,6 +140,28 @@ namespace Lab2
             }
             */
 
+            //program-5: Write a program to print the given number pattern using loop.
+            //1
+            // 2
+            //  3
+            //   4
+            //    5
+           
+            int i, j, k, n;
+            printf(“Enter the Number: “);
+            scanf(“% d”, &n);
+            for (i = 1; i <= n; i++)
+            {
+                for (j = 1; j <= n; j++)
+                {
+                    if (i == j)
+                        printf(“* “);
+                    else
+                        printf(”  “);
+                }
+                printf(“n“);
+            }
+            //
         }
     }
 }

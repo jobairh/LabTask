@@ -8,7 +8,7 @@ namespace Student_library
 {
     class Borrow
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         Book[] books;
 
@@ -22,11 +22,12 @@ namespace Student_library
         {
             books = new Book[5];
         }
-        public Borrow(int id, Student student, int day)
+        public Borrow(string id, Student student, int day)
         {
             Id = id;
             Student = student;
             Day = day;
+            books = new Book[5];
         }
         public void AddBook(params Book[] books)
         {
@@ -34,7 +35,7 @@ namespace Student_library
             {
                 if (BookCount < 5)
                 {
-                    books[BookCount++] = book;
+                    this.books[BookCount++] = book;
                 }
                 else
                 {

@@ -13,15 +13,21 @@ namespace Student_library
 
         public int totalBook { get; set; }
 
+        public Account Account { get; set; }
+
         public Library()
         {
             listOfBooks = new Book[100];
+            borrows = new Borrow[1000];
         }
         public Library(string name)
         {
             this.Name = name;
             listOfBooks = new Book[100];
+            borrows = new Borrow[1000];
         }
+        Borrow[] borrows;
+        public int BorrowCount { get; set; }
         public void ShowInfo()
         {
             Console.WriteLine("Name: " + Name);
@@ -74,6 +80,39 @@ namespace Student_library
             for (int i = 0; i < totalBook; i++)
             {
                 listOfBooks[i].ShowInfo();
+            }
+        }
+
+        public void AddBorrow(params Borrow[] borrows)
+        {
+            foreach(var borrow in borrows)
+                this.borrows[BorrowCount++] = borrow;
+        }
+        public void ShowAllBorrows()
+        {
+            Console.WriteLine("--------------------");
+            for (int i = 0; i < BorrowCount; i++)
+            {
+                borrows[i].ShowAllBooks();
+                Console.WriteLine("********************");
+                borrows[i].Student.ShowInfo();
+                Console.WriteLine("--------------------");
+            }
+            Console.WriteLine("--------------------");
+        }
+
+        public void ReturnBook(Student s, Borrow b)
+        {
+            int crDay = DateTime.Now.Day;
+            if(crDay - b.Day > 5)
+            {
+                double amount = (crDay - b.Day - 5) * 10;
+                s.Account.Transfer(amount, this.Account);
+                Console.WriteLine("you have charged with {0} taka for {1} days late", amount, (crDay - b.Day - 5));
+            }
+            else
+            {
+                Console.WriteLine("successfully returned with no charge");
             }
         }
     }

@@ -20,15 +20,17 @@ namespace Student_library
         {
             borrows = new Borrow[100];
         }
+
+        public Account Account { get; set; }
         //Book[] borrows;
         //public int BorrowCount { get; set; }
         //public int Date { get; set; }
 
         public Student(string name, string id)
         {
-            Name = name;
-            Id = id;
-            //borrows = new Book[5];
+            this.Name = name;
+            this.Id = id;
+            borrows = new Borrow[100];
         }
         public void ShowInfo()
         {
